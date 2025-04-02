@@ -298,7 +298,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# pytype static type analyzer
+# pytype src type analyzer
 .pytype/
 
 # Cython debug symbols
@@ -330,3 +330,6 @@ ui_*.py
 assets/**/*.tmp
 assets/**/*.bak
 assets/**/*.swp
+
+# Node Moduels
+node_modules/
