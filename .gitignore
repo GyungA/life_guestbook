@@ -333,3 +333,6 @@ assets/**/*.swp
 
 # Node Moduels
 node_modules/
+
+# Tailwind CSS
+src/css/output.css

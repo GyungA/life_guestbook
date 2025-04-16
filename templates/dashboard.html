@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -6,8 +10,26 @@
     <title>대시보드</title>
     <link href="../src/css/output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">Here is Dashboard Page</h1>
-    <p>Test Page</p>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-xl">Dashboard</h1>
+    </header>
+
+    <nav class="bg-gray-200 w-64 p-4">
+        <ul>
+            <li><a href="#" class="text-blue-600">메뉴 1</a></li>
+            <li><a href="#" class="text-blue-600">메뉴 2</a></li>
+            <li><a href="#" class="text-blue-600">메뉴 3</a></li>
+        </ul>
+    </nav>
+
+    <main class="ml-64 p-4">
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-white p-4 rounded shadow">카드 1</div>
+            <div class="bg-white p-4 rounded shadow">카드 2</div>
+            <div class="bg-white p-4 rounded shadow">카드 3</div>
+        </div>
+    </main>
 </body>
 </html>
+{% endblock %}
