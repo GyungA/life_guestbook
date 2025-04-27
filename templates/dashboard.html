@@ -11,25 +11,23 @@
     <link href="../src/css/output.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
-    <header class="bg-red-400 text-white p-4">
-        <h1 class="text-xl">Dashboard</h1>
-    </header>
+    <div class="flex items-center justify-center bg-red-400 p-4">
+        <!-- Profile Emoji -->
+        <div class="rounded-full bg-white p-4 w-16 h-16 flex items-center justify-center">Emoji</div>
+        <!-- User Info -->
+        <div class="ml-4 flex flex-col w-3/4">
+            <div class="text-xl text-center font-semibold">이름 Username</div>
+            <button class="bg-white text-black py-2 px-4 mt-2 rounded">들어가기 Open</button>
+        </div>
+    </div>
 
-    <nav class="bg-gray-200 w-64 p-4">
-        <ul>
-            <li><a href="#" class="text-blue-600">메뉴 1</a></li>
-            <li><a href="#" class="text-blue-600">메뉴 2</a></li>
-            <li><a href="#" class="text-blue-600">메뉴 3</a></li>
-        </ul>
-    </nav>
-
-    <main class="ml-64 p-4">
-        <div class="grid grid-cols-3 gap-4">
-            <div class="bg-white p-4 rounded shadow">카드 1</div>
-            <div class="bg-white p-4 rounded shadow">카드 2</div>
-            <div class="bg-white p-4 rounded shadow">카드 3</div>
+    <main class="bg-gray-200 p-4">
+        <div class="bg-white p-4 rounded shadow min-h-[150px]">자기소개 About Me</div>
+        <div class="flex justify-end">
+            <a href="#" class="text-blue-600">편집 Edit</a>
         </div>
     </main>
+
 </body>
 </html>
 {% endblock %}
