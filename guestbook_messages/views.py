@@ -5,3 +5,6 @@ def dashboard(request):
 
 def messageboard(request):
     return render(request, 'messageboard.html')
+
+def createmessageboard(request):
+    return render(request, 'createmessageboard.html')
