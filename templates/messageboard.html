@@ -5,7 +5,9 @@
 <main class="bg-gray-200 p-4 min-h-[300px]">
     <!-- Write Button -->
     <div class="flex justify-center mb-4">
-        <button class="bg-red-400 text-white py-2 px-4 rounded w-full">작성하기 Write</button>
+        <a href="{% url 'create_message_board' %}" class="bg-red-400 text-white py-2 px-4 rounded w-full block text-center">
+            작성하기 Write
+        </a>
     </div>
     <div class="bg-white p-4 rounded shadow">
         <p class="text-lg">작성하기 버튼을 눌러 이곳에 메세지를 남겨주세요. <br> Click the ‘Write’ button to leave a message here.</p>
