@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # apps start
-    'life_guestbook',
     'guestbook_messages',
+    'user_profile',
 ]
 
 MIDDLEWARE = [
