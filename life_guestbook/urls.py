@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('guestbook_messages.urls')),
-    path('/', views.dashboard, name='dashboard'),
+    path('', views.dashboard, name='dashboard'),
 ]
